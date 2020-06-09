@@ -1,6 +1,9 @@
 body {
   font-family: "Arial", sans-serif;
 }
+body h1 {
+  font-weight: 900;
+}
 .header {
   color: #fff;
   text-align: center;
@@ -138,9 +141,8 @@ body {
   margin-bottom: 30px;
 }
 .development .sub {
-  top: -300px;
+  top: -350px;
   position: relative;
-  padding: 0 0 120px;
 }
 .development .sub .page {
   text-align: left;
@@ -151,6 +153,7 @@ body {
   background-size: 100% 100%;
 }
 .development .sub .page h1 {
+  font-weight: 700;
   padding-bottom: 40px;
 }
 .development .sub .page button {
@@ -176,6 +179,108 @@ body {
 .development .sub .page.three button {
   border: 2px #66bf0d solid;
 }
+.search {
+  padding-bottom: 100px;
+}
+.search .row {
+  background-image: url(img/search-bg.png);
+  background-repeat: no-repeat;
+  background-position: 5% 20%;
+}
+.search p {
+  padding-top: 25px;
+  font-size: 24px;
+}
+.search img {
+  margin-bottom: 25px;
+}
+.portfolio .row {
+  text-align: center;
+  color: #fff;
+  background-color: #303263;
+}
+.portfolio .top {
+  height: 110px;
+  background-image: url(img/portfolio-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 60%;
+}
+.portfolio .bottom {
+  height: 100px;
+}
+.portfolio .bottom button {
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #6a6b8e;
+  border-radius: 10px;
+}
+.portfolio .bottom button h1 {
+  font-size: 24px;
+  margin: 0;
+}
+.adaptability {
+  padding: 170px 0;
+}
+.adaptability .row {
+  background-image: url(img/adaptability-bg-2.png);
+  background-repeat: no-repeat;
+}
+.adaptability p {
+  padding-top: 25px;
+  font-size: 24px;
+}
+.adaptability img {
+  margin-bottom: 25px;
+}
+
+.trade-in {
+  color: #fff;
+  text-align: left;
+  background-image: url(img/trade-in-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.trade-in h1 {
+  font-size: 48px;
+}
+.trade-in h2 {
+  font-size: 24px;
+  font-weight: 900;
+}
+.trade-in p {
+  font-size: 18px;
+  margin: 0;
+  padding-top: 20px;
+  padding-right: 25px;
+}
+.trade-in .main {
+  text-align: center;
+  padding-top: 75px;
+}
+.trade-in .main h1 {
+  padding: 0 50px;
+  margin-bottom: 30px;
+}
+.trade-in .sub img {
+  padding-right: 5px;
+}
+.trade-in .bottom {
+  text-align: center;
+  height: 100px;
+}
+.trade-in .bottom button {
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #f6ae48;
+  border-radius: 10px;
+}
+.trade-in .bottom button h1 {
+  font-size: 24px;
+  margin: 0;
+}
 @media (max-width: 1200px) {
   .menu .main {
     flex: 0 0 100%;
@@ -186,9 +291,11 @@ body {
   .header .main h1 {
     padding: 0;
   }
+
   .header h2 {
     padding: 0;
   }
+
   .development {
     margin-top: 200px;
   }
@@ -203,6 +310,13 @@ body {
   }
   .development .sub .page {
     margin-bottom: 40px;
+  }
+
+  .trade-in {
+    background-size: auto 100%;
+  }
+  .trade-in .main {
+    padding-top: 175px;
   }
 }
 @media (max-width: 770px) {
